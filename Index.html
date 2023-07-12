@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Code Editz</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A live code editor for writing and testing code in real-time.">
+  <meta name="keywords" content="live code editor, online code editor, coding, programming, development, testing, IDE, syntax highlighting, code execution, AI, Artificial intelligence, Editing">
+  <meta name="author" content="BKing">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="7 days">
+  <meta name="generator" content="Your Code Editor Generator">
+  <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="Live Code Editor">
+  <meta property="og:description" content="A live code editor for writing and testing code in real-time.">
+  <meta property="og:image" content="https://example.com/images/live-code-editor.png">
+  <meta property="og:url" content="https://example.com/live-code-editor">
+  <meta property="og:type" content="website">
+  <meta name="twitter:title" content="Live Code Editor">
+  <meta name="twitter:description" content="A live code editor for writing and testing code in real-time.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Code Editor">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <link rel="stylesheet" href="editz.css"/>
+    <script src="editz.js" type="text/javascript" charset="utf-8"></script>
+   </head>
+  <body>
+    <div class="editz">
+      <div class="left">
+        <label for="HTML">HTML</label>
+        <textarea name="html-editz" id=html-editz onkeyup="run()"></textarea>
+        <label for="CSS">CSS</label>
+        <textarea name="css-editz" id=css-editz onkeyup="run()"></textarea>
+        <label for="JavaScript">JavaScript</label>
+        <textarea name="js-editz" id=js-editz onkeyup="run()"></textarea>
+      </div>
+      <div class="right">
+        <label for="OutPut">OutPut</label>
+        <iframe id="Results"></iframe>
+      </div>
+    </div>
+  </body>
+</html>
